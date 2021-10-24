@@ -1,11 +1,4 @@
 imapsync:
   build: .
-  environment:
-    - HOST1=
-    - USER1=
-    - PASSWORD1=
-    - OTHER1=
-    - HOST2=
-    - USER2=
-    - PASSWORD2=
-    - OTHER2=
+  env_file:
+    - imapsync.env
