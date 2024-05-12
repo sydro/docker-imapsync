@@ -1,4 +1,5 @@
-imapsync:
-  build: .
-  env_file:
-    - imapsync.env
+services:
+  imapsync:
+    build: .
+    env_file:
+      - imapsync.env
